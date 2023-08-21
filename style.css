@@ -1,0 +1,30 @@
+#counter{
+    display: block;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.btn{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+button{
+    width: 8rem;
+    text-align: center;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: none;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: blue;
+}
+
